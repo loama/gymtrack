@@ -23,17 +23,7 @@
 </template>
 
 <script setup>
-import {
-  doc,
-  setDoc,
-  serverTimestamp,
-  collection,
-  query,
-  where,
-  orderBy,
-  limit,
-  getDocs
-} from 'firebase/firestore'
+import { doc, setDoc } from 'firebase/firestore'
 import { db } from '@/firebase.js'
 
 const route = useRoute()

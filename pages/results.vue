@@ -49,7 +49,7 @@ import { ref, onMounted, computed } from 'vue'
 const data = ref([])
 
 const sortedData = computed(() => {
-  return [...data.value].sort((a, b) => new Date(a.date) - new Date(b.date))
+  return [...data.value].sort((a, b) => new Date(b.date) - new Date(a.date))
 })
 
 const totalEdu = computed(() => {

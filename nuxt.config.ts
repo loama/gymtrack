@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: 'GymTrack',
       link: [
         { rel: 'icon', href: '/icon-192.png', sizes: '192x192', type: 'image/png' },
         { rel: 'apple-touch-icon', href: '/icon-192.png', sizes: '192x192' }
